@@ -95,7 +95,12 @@ const Card = ({isplay, setisplay}) => {
   
 
   return (
-    <div className='absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] h-[65vh] w-[25vw]  rounded-3xl overflow-hidden
+    <div className=' absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
+    w-[90%] h-[75vh] 
+    sm:w-[80%] 
+    md:w-[60%] 
+    lg:w-[35%] 
+    rounded-3xl overflow-hidden
     bg-white/10 border border-white/20 backdrop-blur-lg shadow-xl text-white'>
       <div className="flex items-center justify-between px-5 py-5 w-full">
         <span>
